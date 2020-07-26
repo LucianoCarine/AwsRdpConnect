@@ -1,3 +1,6 @@
+sudo yum update -y kernal
+sudo yum update
+
 sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-8.noarch.rpm 
 sudo yum install -y tigervnc-server xrdp
 sudo systemctl start xrdp
