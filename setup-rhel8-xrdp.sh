@@ -1,7 +1,12 @@
+echo "do not use this.. it does not work!"
+
 sudo yum update -y kernal
 sudo yum update
 
-sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-8.noarch.rpm 
+echo "release latest 7 works"
+sudo yum install https //dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-8.noarch.rpm
+
 sudo yum install -y tigervnc-server xrdp
 sudo systemctl start xrdp
 sudo netstat -antup | grep xrdp
